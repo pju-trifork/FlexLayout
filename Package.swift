@@ -18,7 +18,7 @@ let package = Package(
   targets: [
     .target(
       name: "FlexLayout",
-      dependencies: ["Yoga", "YogaKit"],
+      dependencies: ["FlexLayoutYoga", "FlexLayoutYogaKit"],
       path: "Sources/Swift"
     ),
     .target(
@@ -28,7 +28,7 @@ let package = Package(
     ),
     .target(
       name: "FlexLayoutYogaKit",
-      dependencies: ["Yoga"],
+      dependencies: ["FlexLayoutYoga"],
       path: "Sources/YogaKit"
     )
   ]
