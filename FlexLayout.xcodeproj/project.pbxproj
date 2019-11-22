@@ -170,7 +170,6 @@
 				24AE973A1FEAF30A00995987 /* YGLayout+Private.h */,
 				24AE973B1FEAF30A00995987 /* YGLayout.h */,
 				24AE973C1FEAF30A00995987 /* YGLayout.mm */,
-				24AE973D1FEAF30A00995987 /* YGLayoutExtensions.swift */,
 			);
 			path = YogaKit;
 			sourceTree = "<group>";
@@ -233,6 +232,7 @@
 			children = (
 				24AE972E1FEAF30A00995987 /* FlexLayout.swift */,
 				24AE97331FEAF30A00995987 /* Percent.swift */,
+				24AE973D1FEAF30A00995987 /* YGLayoutExtensions.swift */,
 				24AE972F1FEAF30A00995987 /* Impl */,
 			);
 			path = Swift;
