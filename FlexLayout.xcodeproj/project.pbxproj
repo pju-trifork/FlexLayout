@@ -135,9 +135,7 @@
 		24AE972D1FEAF30A00995987 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				24AE972E1FEAF30A00995987 /* FlexLayout.swift */,
-				24AE972F1FEAF30A00995987 /* Impl */,
-				24AE97331FEAF30A00995987 /* Percent.swift */,
+				B9F36EE5238864BA007005CD /* Swift */,
 				24AE97341FEAF30A00995987 /* SupportingFiles */,
 				DFAD4C3820409165008F79CD /* yoga */,
 				24AE97371FEAF30A00995987 /* YogaKit */,
@@ -228,6 +226,16 @@
 				37FAE3C0113906CFA58353F5 /* Pods_FlexLayoutTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F36EE5238864BA007005CD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				24AE972E1FEAF30A00995987 /* FlexLayout.swift */,
+				24AE97331FEAF30A00995987 /* Percent.swift */,
+				24AE972F1FEAF30A00995987 /* Impl */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		DFAD4C3820409165008F79CD /* yoga */ = {
