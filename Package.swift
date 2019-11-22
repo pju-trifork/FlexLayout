@@ -31,5 +31,7 @@ let package = Package(
       dependencies: ["FlexLayoutYoga"],
       path: "Sources/YogaKit"
     )
-  ]
+  ],
+  cLanguageStandard: .gnu99,
+  cxxLanguageStandard: .gnucxx11
 )
