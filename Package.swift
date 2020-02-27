@@ -19,13 +19,17 @@ let package = Package(
     .target(
       name: "FlexLayout",
       dependencies: ["FlexLayoutYoga", "FlexLayoutYogaKit"],
-      path: "Sources/Swift"
+      path: "Sources/Swift",
+      cxxSettings: [
+        .define("SWIFT_PACKAGE", to: "1", nil)
+      ]
     ),
     .target(
       name: "FlexLayoutYoga",
       dependencies: [],
       path: "Sources/yoga",
       cxxSettings: [
+      .define("SWIFT_PACKAGE", to: "1", nil),
       .headerSearchPath("include/yoga/"),
       .headerSearchPath("./")
       ]
