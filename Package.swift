@@ -36,7 +36,8 @@ let package = Package(
       path: "Sources/YogaKit",
       cxxSettings: [
       .headerSearchPath("include/YogaKit/"),
-      .headerSearchPath("./")
+      .headerSearchPath("./"),
+      .define("SWIFT_PACKAGE")
       ]
     )
   ],
