@@ -35,9 +35,9 @@ let package = Package(
       dependencies: ["FlexLayoutYoga"],
       path: "Sources/YogaKit",
       cxxSettings: [
+      .define("SWIFT_PACKAGE", to: "1", nil),
       .headerSearchPath("include/YogaKit/"),
-      .headerSearchPath("./"),
-      .define("SWIFT_PACKAGE")
+      .headerSearchPath("./")
       ]
     )
   ],
